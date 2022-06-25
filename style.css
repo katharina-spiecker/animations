@@ -19,6 +19,7 @@ body {
 }
 
 span {
+	
 	opacity: 0;
 	transition: all 2s ease;
 	/* transition: all 1s ease; */
