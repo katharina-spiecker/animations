@@ -1,31 +1,38 @@
 * {
-	margin: 0;
-	box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-	margin: 0;
-	padding: 10px;
-	background-color: black;
-	color: white;
-	text-align: center;
-	font-family: sans-serif;
+  margin: 0;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
 }
 
 #headline {
-	margin: 0;
-	line-height: 100vh;
-	font-size: 6rem;
+  margin: 0;
+  line-height: 100vh;
+  font-size: 6rem;
 }
 
 span {
-	
-	opacity: 0;
-	transition: all 2s ease;
-	/* transition: all 1s ease; */
+  opacity: 0;
+  transition: all 2s ease;
+  /* transition: all 1s ease; */
 }
 
 span.fade {
-	opacity: 1;
-	color: rgb(164, 71, 142);
+  opacity: 1;
+  color: rgb(164, 71, 142);
+}
+
+.cactus .spikes {
+  color: green;
+}
+
+.weather-indicator {
+  border-radius: 50%;
 }
