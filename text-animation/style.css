@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#headline {
+    margin: 0;
+    line-height: 100vh;
+    font-size: 6rem;
+}
+
+span {
+    opacity: 0;
+    transition: all 2s ease;
+    /* transition: all 1s ease; */
+}
+
+span.fade {
+    opacity: 1;
+    color: rgb(164, 71, 142);
+}
+
+.watering-can {
+    background-color: rgb(184, 108, 190);
+    border: 10px solid white;
+}
+
+.plants {
+    height: 40px;
+    background-color: rgb(0, 131, 0);
+    width: 80%;
+}

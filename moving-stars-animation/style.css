@@ -1,0 +1,112 @@
+.header-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-row-gap: 16px;
+    grid-row-gap: 16px;
+    height: 100vh;
+    background-color: #151515;
+    overflow: hidden;
+}
+
+.box {
+    transition: all 1s;
+}
+
+.box-1 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.box-2 {
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+.box-3 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 10;
+    grid-row-end: 11;
+}
+.box-4 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+.box-5 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+.box-6 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 10;
+    grid-row-end: 11;
+}
+.box-7 {
+    grid-column-start: 10;
+    grid-column-end: 11;
+    grid-row-start: 10;
+    grid-row-end: 11;
+}
+.box-8 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.box-9 {
+    grid-column-start: 11;
+    grid-column-end: 12;
+    grid-row-start: 1;
+    grid-row-end: 12;
+}
+.box-10 {
+    grid-column-start: 11;
+    grid-column-end: 12;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.box-11 {
+    grid-column-start: 10;
+    grid-column-end: 11;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+.box-12 {
+    grid-column-start: 9;
+    grid-column-end: 10;
+    grid-row-start: 9;
+    grid-row-end: 10;
+}
+
+.four-pointed-star {
+    position: relative;
+    margin: 20px auto;
+    width: 20px;
+    font-size: 12em;
+}
+
+.four-pointed-star:before {
+    content: "";
+    position: absolute;
+    background: #fff;
+    width: 20px;
+    height: 24px;
+    transform: rotate(-45deg) skewX(22.5deg) skewY(22.5deg);
+}
+
+.four-pointed-star:after {
+    content: "";
+    position: absolute;
+    background: #fff;
+    width: 20px;
+    height: 24px;
+    transform: rotate(45deg) skewX(22.5deg) skewY(22.5deg);
+}
