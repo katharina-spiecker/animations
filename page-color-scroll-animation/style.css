@@ -5,4 +5,11 @@
 body {
     background-color: #55E6C1;
     transition: background-color 1s;
+    color: #fff;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+h2 {
+    font-size: 80px;
 }
