@@ -1,0 +1,8 @@
+.section {
+    height: 100vh;
+}
+
+body {
+    background-color: #55E6C1;
+    transition: background-color 1s;
+}
